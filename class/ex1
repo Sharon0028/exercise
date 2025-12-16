@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Studen{
+public:
+    int score;
+    string name;
+};
+
+int main(){
+    Studen s;
+    s.name="Amy";
+    s.score=90;
+    cout<<s.name<<" "<<s.score;
+    return 0;
+}
