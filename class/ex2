@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Rectangle{
+public:
+    int width;
+    int height;
+    int area(){
+        return width*height;
+    }
+};
+
+int main(){
+    Rectangle r;
+    r.width=5;
+    r.height=3;
+    cout<<r.area();
+    return 0;
+}
