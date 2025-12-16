@@ -1,0 +1,21 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Counter{
+public:
+    int value;
+    void increase(){
+        value+=1;
+    }
+};
+
+int main(){
+    Counter c;
+    c.value=0;
+    c.increase();
+    c.increase();
+    c.increase();
+    cout<<c.value;
+    return 0;
+}
