@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+class Counter{
+private:
+    int Value;
+public:
+    Counter(){
+        Value=0;
+    }
+    Counter(int start){
+        Value=start;
+    }
+    int getValue(){
+        return Value;
+    }
+};
+int main(){
+    Counter a;
+    Counter b(10);
+    cout<<a.getValue()<<" "<<b.getValue();
+    return 0;
+}
